@@ -25,7 +25,7 @@ function Signup() {
     setMessage("Creating account...");
 
     try {
-      const response = await fetch("http://unitrack-gfe8.onrender.com/api/auth/signup", {
+      const response = await fetch("https://unitrack-gfe8.onrender.com/api/auth/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
